@@ -1,0 +1,90 @@
+.navbar {
+    font-family: Inter;
+    height: 70px !important;
+}
+
+.navbar-brand {
+    font-family: Inter !important;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+    color: #000000CC !important;
+}
+
+.navbar-brand:hover {
+    color: #0094FF;
+}
+
+.span-title {
+    color: #6D6D6D99 !important;
+}
+
+.dropdown-menu {
+    min-width: 300px;
+    min-height: 500px;
+}
+
+.navbar-nav {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.nav-link {
+    color: #757575 !important;
+    font-family: Inter;
+    transition: .3 ease !important;
+}
+
+.nav-link:hover {
+    color: rgb(0, 0, 0) !important;
+    transition: .3 ease !important;
+}
+
+.nav-link:active {
+    color: rgb(0, 0, 0) !important;
+    transition: .3 ease !important;
+}
+
+.nav-item {
+    margin-right: 108px;
+}
+
+.bg-body-tertiary {
+    background-color: none !important;
+    border-bottom: 1px solid #d9d9d9 !important;
+    box-shadow: none !important;
+}
+
+.btn-accedi {
+    font-family: Inter;
+    font-weight: 600;
+    box-sizing: border-box;
+
+    width: 111px;
+    height: 44px;
+
+    background: #FFFFFF;
+    border: 1px solid #B9B9B9;
+    box-shadow: -4px 4px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #2C2C2CCC !important;
+
+    transition: .3s ease;
+}
+
+.btn-accedi:hover {
+    color: #2C2C2CCC;
+    border: 4px solid white;
+    transition: .3s ease;
+}
+
+.btn-accedi:active {
+    color: #2C2C2CCC !important;
+    transition: .3s !important;
+    border: 4px solid white !important;
+    transition: .3 ease;
+}

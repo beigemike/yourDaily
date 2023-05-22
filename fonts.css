@@ -1,0 +1,57 @@
+@font-face {
+    font-family: Inter;
+    src: url(fonts/Inter-VariableFont_slnt\,wght.ttf);
+
+    /* 
+
+    FONT WEIGHT:
+    - Thin = /
+    - Extra light = /
+    - Light = 300
+    - Regular = 400
+    - Medium = /
+    - Semi bold = 600
+    - Bold = 700
+    - Extra bold (titoli su mobile) = 800 
+    - Black (titoli) = 900 
+
+    */
+}
+
+/*
+@font-face {
+    font-family: SF Thin;
+    src: url(./fonts/SF/SFProDisplay-Thin.ttf);
+}
+
+@font-face {
+    font-family: SF Light;
+    src: url(./fonts/SF/SFProDisplay-Light.ttf);
+}
+
+@font-face {
+    font-family: SF Regular;
+    src: url(./fonts/SF/SFProDisplay-Regular.ttf);
+}
+
+@font-face {
+    font-family: SF Medium;
+    src: url(./fonts/SF/SFProDisplay-Medium.ttf);
+}
+
+@font-face {
+    font-family: SF SemiBold;
+    src: url(./fonts/SF/SFProDisplay-Semibold.ttf);
+}
+
+@font-face {
+    font-family: SF Bold;
+    src: url(./fonts/SF/SFProDisplay-Bold.ttf);
+}
+
+@font-face {
+    font-family: SF UltraBlack;
+    src: url(./fonts/SF/SFProDisplay-Black.ttf);
+}
+
+*/

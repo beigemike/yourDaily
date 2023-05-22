@@ -1,0 +1,146 @@
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/info.css');
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/pin.css');
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/sun.css');
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/calendar-today.css');
+
+/* ICONA LOCALITA */
+
+.gg-pin {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: rotate(45deg) scale(var(--ggs, 1));
+    width: 18px;
+    height: 18px;
+    border-radius: 100% 100% 0 100%;
+    border: 2px solid;
+    margin-top: -4px
+}
+
+.gg-pin::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    border: 2px solid;
+    top: 3px;
+    left: 3px;
+    border-radius: 40px
+}
+
+/* ICONA INFO */
+
+.gg-info::after,
+.gg-info::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    border-radius: 3px;
+    width: 2px;
+    background: currentColor;
+    left: 7px
+}
+
+.gg-info::after {
+    bottom: 2px;
+    height: 8px
+}
+
+.gg-info::before {
+    height: 2px;
+    top: 2px
+}
+
+/* ICONA SOLE */
+
+.gg-sun {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 24px;
+    height: 24px;
+    background:
+    linear-gradient(to bottom,
+    currentColor 4px,transparent 0)
+    no-repeat 5px -6px/2px 6px,
+    linear-gradient(to bottom,
+    currentColor 4px,transparent 0)
+    no-repeat 5px 14px/2px 6px,
+    linear-gradient(to bottom,
+    currentColor 4px,transparent 0)
+    no-repeat -8px 5px/6px 2px,
+    linear-gradient(to bottom,
+    currentColor 4px,transparent 0)
+    no-repeat 14px 5px/6px 2px;
+    border-radius: 100px;
+    box-shadow: inset 0 0 0 2px;
+    border: 6px solid transparent
+   }
+   
+   .gg-sun::after,
+   .gg-sun::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    width: 24px;
+    height: 2px;
+    border-right: 4px solid;
+    border-left: 4px solid;
+    left: -6px;
+    top: 5px
+   }
+   
+   .gg-sun::before {
+    transform: rotate(-45deg)
+   }
+   
+   .gg-sun::after {
+    transform: rotate(45deg)
+   } 
+
+/* ICONA CALENDARIO */
+
+.gg-calendar-today {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 18px;
+    height: 18px;
+    border: 2px solid;
+    border-top: 4px solid;
+    border-radius: 3px
+   }
+   
+   .gg-calendar-today::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    background: currentColor;
+    height: 4px;
+    width: 4px;
+    border-radius: 2px;
+    right: 2px;
+    bottom: 2px
+   } 
+
+   .fa-brands {
+    font-size: 25px;
+    color: rgba(109, 109, 109, 0.5);
+    margin-right: 3px;
+   }
+
+   .fa-brands:hover {
+    cursor: pointer;
+   }
+
+   .fa-square-rss {
+    font-size: 25px;
+    color: rgba(109, 109, 109, 0.5);
+   }
